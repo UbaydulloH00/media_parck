@@ -3,15 +3,307 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!-- normailze css -->
     <link rel="stylesheet" href="./css/normalize.css">
-    <!-- fonts -->
+    <!-- font_awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font css -->
     <link rel="stylesheet" href="./css/font.css">
     <!-- genaral css -->
     <link rel="stylesheet" href="./css/style.css">
-    <title>Avto electiric</title>
+    <title>Media Parck</title>
 </head>
 <body>
+    <header>
+            <div class="header__nav">
+                <div class="header__nav-hero">
+                    <div class="container nav__container">
+                        <section class="header__nav-hero-childe">
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
+                                <a>+998 71 203 33 33</a>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-location-dot"></i>
+                                <a>Andijon</a>
+                            </div>
+                        </section>
+                        <section class="header__nav-hero-menu">
+                            <a href="#">Biz haqimizda</a>
+                            <a href="#">Hamkorlik</a>
+                            <a href="#">Yuridik shaxslar uchun</a>
+                            <a href="#">Yetkazib berish</a>
+                            <a href="#">Do'konlar</a>
+                            <a href="#">Biz bilan bog'laning!</a>
+                            <a href="#">O'zbekcha</a>
+                        </section>
+                    </div>
+                </div>
+              <div class="container">
+                <div class="header__nav-main">
+                    <section class="header__nav-main-logo">
+                        <a href="#">MEDIA<span>PARK</span></a>
+                        <button >
+                            <i class="fa-solid fa-bars"></i>
+                            Katlog
+                        </button>
+                    </section>
+                    <section class="header__nav-main-search">
+                        <input type="search" placeholder="Mediaparkda qidirish">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </section>
+                    <section class="header__nav-main-foruser">
+                        <div>
+                            <i class="fa-solid fa-cube"></i>
+                            <a href="#">Buyurtma holati</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-scale-balanced"></i>
+                            <a href="#">Taqqoslash</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <a href="#">savatcha</a>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-heart"></i>
+                            <a href="#">Saralanganlar</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-user"></i>
+                            <a href="#">Kirish</a>
+                        </div>
+                    </section>
+                </div>
+                <div class="header__nav-footer">
+                    <a href="#">Smartfonlar</a>
+                    <a href="#">Muzlatgich</a>
+                    <a href="#">Apple</a>
+                    <a href="#">Telvizor</a>
+                    <a href="#">Notebook</a>
+                    <a href="#">Kir yuvish mashinasi</a>
+                    <a href="#">Qahva mashinasi</a>
+                    <a href="#">Pishiriqlar paneli</a>
+                    <a href="#">Smart soat</a>
+                    <a href="#">Konditsaner</a>
+                    <a href="#">Dazmolar</a>
+                    <a href="#">Blender</a>
+                    <a href="#">Barch</a>
+                </div>
+              </div>
+            </div>
+            <div class="header__hero">
+                <div class="header__hero-slayder">
+                   <div class="container">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="./img/honor.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./img/reklama.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/iphone15-black.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                   </div>
+                </div>
+                <div class="header__hero-classes">
+                    <div class="container">
+                        <section><h2>Ommabop kategoriyalar</h2></section>
+                        <section class="header__hero-classes-child">
+                            <div class="header__hero-classes-items">
+                               <div> <i class="fa-solid fa-laptop" style="color: #d42b3c;"></i></div>
+                                <p>Barcha <br> noutbuklar</p>
+                            </div>
+                            <div class="header__hero-classes-items">
+                                <div> <i class="fa-solid fa-tv" style="color: #d42b3c;"></i></div>
+                                 <p>Barcha <br> Telvizorlar</p>
+                             </div>
+                             <div class="header__hero-classes-items">
+                                <div> <i class="fa-solid fa-broom" style="color: #d42b3c;"></i></div>
+                                 <p>Changyutgichlar</p>
+                             </div>
+                             <div class="header__hero-classes-items">
+                                <div class="div"> <i class="fa-solid fa-hard-drive" style="color: #d42b3c;"></i></div>
+                                 <p>Kir yuvish <br> mashinalar</p>
+                             </div>
+                             <div class="header__hero-classes-items">
+                                <div class="div"> <i class="fa-solid fa-hard-drive" style="color: #d42b3c;"></i></div>
+                                 <p>Muslatgichlar</p>
+                             </div>
+                             <div class="header__hero-classes-items">
+                                <div class="div2"> <i class="fa-solid fa-mobile" style="color: #d42b3c;"></i></div>
+                                 <p>Smartfonlar</p>
+                             </div>
+                            
+                        </section>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="main__product">
+                <section><h2>Yangiliklar</h2></section>
+                <section class="main__product-new">
+                    <section class="main__product-new-childe">
+                    <img src="./img/macbook.jpg" alt="" width="189px" height="100px">
+                    <h3>
+                        19 850 000 so'm
+                    </h3>
+                    <div class="main__product-new-childe-one"><p>2 282 749 so'm/oyiga</p></div>
+                    <p>Noutbuk Apple Macbook Air <br> M2 8GB/256 SSD</p>
+                    <div>
+                        <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                        <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                        <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                        <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                        24
+                    </div>
+                    <div class="main__product-new-items">
+                        <button><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></button>
+                        <button><i class="fa-solid fa-scale-balanced"></i></button>
+                        <button><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    </section>
+                    <section class="main__product-new-childe">
+                        <img src="./img/macbook.jpg" alt="" width="189px" height="100px">
+                        <h3>
+                            19 850 000 so'm
+                        </h3>
+                        <div class="main__product-new-childe-one"><p>2 282 749 so'm/oyiga</p></div>
+                        <p>Noutbuk Apple Macbook Air <br> M2 8GB/256 SSD</p>
+                        <div>
+                            <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                            <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                            <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                            <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                            24
+                        </div>
+                        <div class="main__product-new-items">
+                            <button><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></button>
+                            <button><i class="fa-solid fa-scale-balanced"></i></button>
+                            <button><i class="fa-regular fa-heart"></i></button>
+                        </div>
+                    </section>
+                    <section class="main__product-new-childe">
+                            <img src="./img/macbook.jpg" alt="" width="189px" height="100px">
+                            <h3>
+                                19 850 000 so'm
+                            </h3>
+                            <div class="main__product-new-childe-one"><p>2 282 749 so'm/oyiga</p></div>
+                            <p>Noutbuk Apple Macbook Air <br> M2 8GB/256 SSD</p>
+                            <div>
+                                <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                                <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                                <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                                <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                                24
+                            </div>
+                            <div class="main__product-new-items">
+                                <button><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></button>
+                                <button><i class="fa-solid fa-scale-balanced"></i></button>
+                                <button><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                    </section>
+                    <section class="main__product-new-childe">
+                                <img src="./img/macbook.jpg" alt="" width="189px" height="100px">
+                                <h3>
+                                    19 850 000 so'm
+                                </h3>
+                                <div class="main__product-new-childe-one"><p>2 282 749 so'm/oyiga</p></div>
+                                <p>Noutbuk Apple Macbook Air <br> M2 8GB/256 SSD</p>
+                                <div>
+                                    <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                                    <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                                    <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                                    <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                                    24
+                                </div>
+                                <div class="main__product-new-items">
+                                    <button><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></button>
+                                    <button><i class="fa-solid fa-scale-balanced"></i></button>
+                                    <button><i class="fa-regular fa-heart"></i></button>
+                                </div>
+                    </section>
+                    <section class="main__product-new-childe">
+                                    <img src="./img/macbook.jpg" alt="" width="189px" height="100px">
+                                    <h3>
+                                        19 850 000 so'm
+                                    </h3>
+                                    <div class="main__product-new-childe-one"><p>2 282 749 so'm/oyiga</p></div>
+                                    <p>Noutbuk Apple Macbook Air <br> M2 8GB/256 SSD</p>
+                                    <div>
+                                        <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                                        <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                                        <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                                        <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                                        24
+                                    </div>
+                                    <div class="main__product-new-items">
+                                        <button><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></button>
+                                        <button><i class="fa-solid fa-scale-balanced"></i></button>
+                                        <button><i class="fa-regular fa-heart"></i></button>
+                                    </div>
+                    </section>
+                    <section class="main__product-new-childe">
+                        <img src="./img/macbook.jpg" alt="" width="189px" height="100px">
+                        <h3>
+                            19 850 000 so'm
+                        </h3>
+                        <div class="main__product-new-childe-one"><p>2 282 749 so'm/oyiga</p></div>
+                        <p>Noutbuk Apple Macbook Air <br> M2 8GB/256 SSD</p>
+                        <div>
+                            <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                            <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                            <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                            <i class="fa-solid fa-star" style="color: #ee8ba4;"></i>
+                            24
+                        </div>
+                        <div class="main__product-new-items">
+                            <button><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></button>
+                            <button><i class="fa-solid fa-scale-balanced"></i></button>
+                            <button><i class="fa-regular fa-heart"></i></button>
+                        </div>
+                    </section>
+                </section>
+                <section class="main__product-trend"></section>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+
+
+
     
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+   
 </body>
 </html>

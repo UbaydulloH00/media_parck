@@ -2,4 +2,257 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Gilroy";
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0% auto;
+}
+
+.header__nav .header__nav-hero {
+  background: #f8f8f9;
+}
+.header__nav .header__nav-hero .nav__container {
+  display: flex;
+  justify-content: space-between;
+}
+.header__nav .header__nav-hero .nav__container .header__nav-hero-childe {
+  display: flex;
+  gap: 20px;
+}
+.header__nav .header__nav-hero .nav__container .header__nav-hero-childe div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header__nav .header__nav-hero .nav__container .header__nav-hero-childe div a {
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.5;
+}
+.header__nav .header__nav-hero .nav__container .header__nav-hero-childe div a:hover {
+  opacity: 1;
+}
+.header__nav .header__nav-hero .nav__container .header__nav-hero-childe div i {
+  font-size: 16px;
+  color: black;
+}
+.header__nav .header__nav-hero .nav__container .header__nav-hero-menu {
+  display: flex;
+  gap: 20px;
+}
+.header__nav .header__nav-hero .nav__container .header__nav-hero-menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.5;
+}
+.header__nav .header__nav-hero .nav__container .header__nav-hero-menu a:hover {
+  opacity: 1;
+}
+.header__nav .header__nav-main {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav .header__nav-main section {
+  display: flex;
+  gap: 20px;
+}
+.header__nav .header__nav-main .header__nav-main-logo {
+  display: flex;
+  align-items: center;
+}
+.header__nav .header__nav-main .header__nav-main-logo a {
+  text-decoration: none;
+  color: red;
+  font-weight: 700;
+  font-size: 24px;
+}
+.header__nav .header__nav-main .header__nav-main-logo a span {
+  color: blue;
+}
+.header__nav .header__nav-main .header__nav-main-logo button {
+  display: flex;
+  gap: 10px;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 20px;
+  background: rgb(216, 79, 79);
+}
+.header__nav .header__nav-main .header__nav-main-search {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #f8efef;
+  border-radius: 14px;
+  width: 597px;
+  height: 51px;
+}
+.header__nav .header__nav-main .header__nav-main-search i {
+  color: white;
+}
+.header__nav .header__nav-main .header__nav-main-search input[type=search] {
+  margin-top: 5px;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+}
+.header__nav .header__nav-main .header__nav-main-search button {
+  margin-top: 2px;
+  margin-right: 4px;
+  width: 74px;
+  height: 90%;
+  border: none;
+  border-radius: 10px;
+  border: 14px;
+  background: rgb(216, 79, 79);
+}
+.header__nav .header__nav-main .header__nav-main-foruser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav .header__nav-main .header__nav-main-foruser div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header__nav .header__nav-main .header__nav-main-foruser div i {
+  cursor: pointer;
+}
+.header__nav .header__nav-main .header__nav-main-foruser div a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.header__nav .header__nav-main .header__nav-main-foruser div a:hover {
+  opacity: 1;
+}
+.header__nav .header__nav-footer {
+  margin-left: 30px;
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+.header__nav .header__nav-footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.header__nav .header__nav-footer a:hover {
+  opacity: 1;
+}
+
+.header__hero {
+  margin-top: 30px;
+}
+.header__hero .header__hero-slayder {
+  margin-bottom: 30px;
+}
+.header__hero .header__hero-classes h2 {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.header__hero .header__hero-classes .header__hero-classes-child {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.header__hero .header__hero-classes .header__hero-classes-child .header__hero-classes-items {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  gap: 10px;
+  width: 227px;
+  height: 82px;
+  border-radius: 12px;
+  border: 1px solid rgb(247, 218, 218);
+}
+.header__hero .header__hero-classes .header__hero-classes-child .header__hero-classes-items .div {
+  padding-left: 10px;
+}
+.header__hero .header__hero-classes .header__hero-classes-child .header__hero-classes-items .div2 {
+  padding-left: 12px;
+}
+.header__hero .header__hero-classes .header__hero-classes-child .header__hero-classes-items div {
+  border-radius: 10px;
+  padding: 10px 5px;
+  width: 50px;
+  height: 50px;
+  background: #f0dbdb;
+}
+.header__hero .header__hero-classes .header__hero-classes-child .header__hero-classes-items div i {
+  font-size: 30px;
+}
+
+.main__product {
+  margin-top: 80px;
+}
+.main__product h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.main__product .main__product-new {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.main__product .main__product-new .main__product-new-childe {
+  margin-top: 40px;
+  padding-left: 5px;
+  padding-top: 80px;
+  width: 225px;
+  height: 472px;
+}
+.main__product .main__product-new .main__product-new-childe:hover {
+  border-radius: 14px;
+  border: 1px solid rgb(240, 233, 233);
+}
+.main__product .main__product-new .main__product-new-childe img {
+  padding-left: 10px;
+}
+.main__product .main__product-new .main__product-new-childe .main__product-new-childe-one {
+  width: 200px;
+  margin-bottom: 20px;
+  height: 30px;
+  padding: 3px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.main__product .main__product-new .main__product-new-childe .main__product-new-childe-one p {
+  font-weight: 500;
+}
+.main__product .main__product-new .main__product-new-childe h3 {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.main__product .main__product-new .main__product-new-childe .main__product-new-items {
+  margin-top: 20px;
+}
+.main__product .main__product-new .main__product-new-childe .main__product-new-items button {
+  width: 65px;
+  height: 50px;
+  border: none;
+  border-radius: 12px;
+  background: rgb(231, 223, 223);
+}
+.main__product .main__product-new .main__product-new-childe .main__product-new-items button:first-child {
+  background-color: red;
 }/*# sourceMappingURL=style.css.map */
