@@ -714,6 +714,7 @@ body {
 }
 .footer__footer .footer__footer-chlide p {
   color: white;
+  font-weight: 500;
 }
 .footer__footer .footer__footer-chlide .massneg {
   display: flex;
